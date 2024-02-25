@@ -44,6 +44,7 @@ img{
     display: block;
     max-width: 100%;
 }
+
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -223,7 +224,13 @@ nav{
 .contact-list .link:hover, .contact-list .link:focus, .navigation-list .link:hover, .navigation-list .link:focus{
     color: #404BBF;
 }
-    
+ 
+
+
+
+
+
+
 .socials-link{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

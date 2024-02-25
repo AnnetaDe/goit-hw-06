@@ -375,7 +375,8 @@
     "editor.suggest.insertMode": "replace",
     "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting"
  
-  }
+  },
+  "liveServer.settings.port": 5501
 }
 
 
