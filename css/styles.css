@@ -758,7 +758,7 @@ font-weight: 500;
     text-decoration: underline;
     text-decoration-skip-ink: none;
   }
-  /* #endregion Modal window */
+ 
   
 
 .send{
@@ -784,3 +784,5 @@ font-weight: 500;
 .send:hover, .send:focus {
     background-color: #404BBF;
 }
+
+ /* #endregion Modal window */
