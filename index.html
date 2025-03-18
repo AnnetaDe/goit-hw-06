@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com" rel="preconnect">
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
             <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" rel="stylesheet" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
         <link href="./css/stylesm.css" rel="stylesheet">
 </head>
@@ -64,7 +66,6 @@
                 <div class="container">
                     <!--Slogan-->
                     <h1 class="titleone">Effective Solutions for Your Business</h1>
-                    <h2 class="hero-title-mob">Effective Solutions for Your Business</h2>
                     <!--Button-->
                     <button class="button-hero" type="button">Order Service</button>
                 </div>
@@ -273,23 +274,26 @@
                     <!--Portfolio_card_1-->
                     <li class="portfolio-card">
                         <div class="portfolio-container-img">
-                            
                             <picture>
-                                <source media="(min width:1200px)" srcset="D:\git\goit-hw-06\images\">
+                                <source 
+                                srcset="
+                                ./images/deskope2x/imgdesk@2x.jpg 2x,
+                                ./images/deskope1x/imglaptop-0.jpg 1x
+                                "
+                               media="(min-width:1158px)" />
+                               <source 
+                                srcset="
+                                ./images/tabl/imgtabl.jpg 1x,
+                                ./images/tabl/img@2x-0.jpg 2x
+                                "
+                                 media="(min-width:768px)" />
+                                 <source
+                                    srcset="
+                                    ./images/mob/imgmob1x.jpg 1x,
+                                    ./images/mob/img@2x.jpg 2x"
+                                    media="(max-width:767px)" />
+                                    
                             </picture>
-
-                            <picture>
-                                <source media="(min-width:768px)" srcset="D:\git\goit-hw-06\images\newallsizes\portfoall\img@3x-5.jpg">
-                            </picture>
-
-                            <picture> 
-                                <source media="(max-width:767px)" srcset="D:\git\goit-hw-06\images\img@2x-5.jpg, D:\git\goit-hw-06\images\newallsizes\portfoall\img@2x-3.jpg"/>
-
-                            </picture>
-                            
-
-
-
                             <img src="./images/portfolio1.jpg" alt="Portfolio1" width="360">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         
@@ -305,18 +309,26 @@
                             
                             
                             <picture>
-                                <source media="(min width:1200px)" srcset="">
+                                <source media="(min width:1200)" srcset="
+                              
+                                ./images/deskope2x/imgdesk@2x-1.jpg 2x,
+                                ./images/deskope1x/imglaptop-1.jpg 1x
+                                "
+                               media="(min-width:1158px)" />
+                               <source 
+                                srcset="
+                                ./images/tabl/imgtabl-1.jpg 1x,
+                                ./images/tabl/img@2x-1.jpg 2x
+                                "
+                                 media="(min-width:768px)" />
+                                 <source
+                                    srcset="
+                                    ./images/mob/imgmob1x-1.jpg 1x,
+                                    ./images/mob/img@2x-1.jpg 2x"
+                                    media="(max-width:767px)" />
+                                    
                             </picture>
-
-                            <picture>
-                                <source media="(min-width:768px)" srcset="./images/portfoall/img@3x.jpg">
-                            </picture>
-
-                            <picture> 
-                                <source media="(max-width:767px)" srcset="/images/img@2x-4.jpg">
-                            </picture>
-                            
-                            
+        
                             
                             <img src="./images/portfolio2.jpg" alt="Portfolio2" width="360">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
@@ -332,20 +344,26 @@
                             
                             
                             <picture>
-                                <source media="(min width:1200px)" srcset="./images/portfoall/cash1x.jpg">
+                                <source 
+                                srcset="
+                                ./images/deskope2x/imgdesk@2x-2.jpg 2x,
+                                ./images/deskope1x/imglaptop-2.jpg 1x
+                                "
+                               media="(min-width:1158px)" />
+                               <source 
+                                srcset="
+                                ./images/tabl/imgtabl-2.jpg 1x,
+                                ./images/tabl/img@2x-2.jpg 2x
+                                "
+                                 media="(min-width:768px)" />
+                                 <source
+                                    srcset="
+                                    ./images/mob/imgmob1x-2.jpg 1x,
+                                    ./images/mob/img@2x-2.jpg 2x"
+                                    media="(max-width:767px)" />
+                                    
                             </picture>
-
-                            <picture>
-                                <source media="(min-width:768px)" srcset="./images/portfoall/cashtab1x.jpg">
-                            </picture>
-
-                            <picture> 
-                                <source media="(min-width:767px) " srcset="/images/img@2x-3.jpg">
-                            </picture>
-                            
-                            
-                            
-                            
+                        
                             <img src="./images/portfolio3.jpg" alt="Portfolio3" width="360">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
@@ -357,23 +375,26 @@
                     <!--Portfolio_card_4-->
                     <li class="portfolio-card">
                         <div class="portfolio-container-img">
-                            
                             <picture>
-                                <source media="(min width:1200)" srcset="./images/portfoall/img@4-3.jpg">
+                                <source 
+                                srcset="
+                                ./images/deskope2x/imgdesk@2x-3.jpg 2x,
+                                ./images/deskope1x/imglaptop-3.jpg 1x
+                                "
+                               media="(min-width:1158px)" />
+                               <source 
+                                srcset="
+                                ./images/tabl/imgtabl-3.jpg 1x,
+                                ./images/tabl/img@2x-3.jpg 2x
+                                "
+                                 media="(min-width:768px)" />
+                                 <source
+                                    srcset="
+                                    ./images/mob/imgmob1x-3.jpg 1x,
+                                    ./images/mob/img@2x-3.jpg 2x"
+                                    media="(max-width:767px)" />
+                                    
                             </picture>
-
-                            <picture>
-                                <source media="(min-width:768px)" srcset="./images/portfoall/img@3x-3.jpg">
-                            </picture>
-
-                            <picture> 
-                                <source media="(max-width:767px)" srcset="/images/img@2x-2.jpgimg@2x-2.jpg">
-                            </picture>
-                            
-                            
-                            
-                            
-                            
                             <img src="./images/portfolio4.jpg" alt="Portfolio4" width="360">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
@@ -386,21 +407,26 @@
                     <li class="portfolio-card">
                         <div class="portfolio-container-img">
                             
-                            
-                            
-                            
-                            
                             <picture>
-                                <source media="(min-width:1200px)" srcset="./images/portfoall/img@4-3.jpg"></picture>
-                            <picture>
-
-                            <picture>
-                                <source media="(min-width:768px)"sizes="" srcset="/images/imglaptop2x.jpg">
+                                <source 
+                                srcset="
+                                ./images/deskope2x/imgdesk@2x-4.jpg 2x,
+                                ./images/deskope1x/imglaptop-4.jpg 1x
+                                "
+                               media="(min-width:1158px)" />
+                               <source 
+                                srcset="
+                                ./images/tabl/imgtabl-4.jpg 1x,
+                                ./images/tabl/img@2x-4.jpg 2x
+                                "
+                                 media="(min-width:768px)" />
+                                 <source
+                                    srcset="
+                                    ./images/mob/imgmob1x-4.jpg 1x,
+                                    ./images/mob/img@2x-4.jpg 2x"
+                                    media="(max-width:767px)" />
+                                    
                             </picture>
-
-                                <source media="(max-width:767px)" srcset="/images/img@2x-1.jpg" sizes="">
-                            </picture>
-                           
                             
                             <img src="./images/portfolio5.jpg" alt="Portfolio5" width="360">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
@@ -413,25 +439,26 @@
                     <!--Portfolio_card_6-->
                     <li class="portfolio-card">
                         <div class="portfolio-container-img">
-                            
-                            
-                            
-                            
-                            
-                            
                             <picture>
-                                <source media="(min width:1200)" srcset="/images/img@2x.jpg">
+                                <source 
+                                srcset="
+                                ./images/deskope2x/imgdesk@2x-5.jpg 2x,
+                                ./images/deskope1x/imglaptop-5.jpg 1x
+                                "
+                               media="(min-width:1158px)" />
+                               <source 
+                                srcset="
+                                ./images/tabl/imgtabl-5.jpg 1x,
+                                ./images/tabl/img@2x-5.jpg 2x
+                                "
+                                 media="(min-width:768px)" />
+                                 <source
+                                    srcset="
+                                    ./images/mob/imgmob1x-5.jpg 1x,
+                                    ./images/mob/img@2x-5.jpg 2x"
+                                    media="(max-width:767px)" />
+                                    
                             </picture>
-
-                            <picture>
-                                <source media="(min-width:768px)" srcset="images\img@3x.jpg">
-                            </picture>
-
-                            <picture> 
-                                <source media="(min-width:767px)" srcset="\images\img@2x.jpg">
-                            </picture>
-                            
-                            
                             
                             <img src="./images/portfolio6.jpg" alt="Portfolio6" width="360">
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
